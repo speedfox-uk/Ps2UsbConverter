@@ -4,7 +4,7 @@ This is an Arduino sketch that can take an Arduino Leonardo, Arduino Pro Micro, 
 
 This sketch was built around getting one particular PS/2 keyboard to work in one particular set of circumstances on one particular Arduino board. It is presented here as the basis for someone else to build their own custom PS/2 to USB keyboard adapter. Pin numbers in the sketch will likely need to be changed for different boards and the mappings can be changed to suit different tastes. Note that the mappings are indexed by Ps/2 scan codes and the values are USB HID keyboard scan codes. 
  
-##Dependancies
+## Dependancies
 
 PS2Events: https://github.com/speedfox-uk/PS2Events
 KeyPress: https://github.com/speedfox-uk/KeyPress
